@@ -1,0 +1,93 @@
+.certificates{
+    margin-left: 300px;
+    margin-top: 80px;
+    height: 1700px;
+
+}
+
+.certificates h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: var(--tech);
+}
+
+.certificates-academic{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    place-content: center;
+}
+
+.certificates-academic div{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    border: 1px solid var(--purple-color);
+    box-shadow: 5px 5px 0 0 var(--purple-color);
+    padding: 20px;
+}
+
+.certificates-academic div h3{
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: var(--tech);
+}
+
+.certificates-academic div p{
+    display: block;
+    font-size: 2rem;
+    font-family:var(--quicksand);
+    font-weight: 300;
+    width: 300px;
+    
+}
+
+.certificates-academic div p:last-child{
+    font-weight: 700;
+}
+
+.certificates--certificate{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+
+}
+
+.certificates--certificate div{
+    border: 1px solid var(--purple-color);
+    box-shadow: 5px 5px 0 0 var(--purple-color);
+    padding: 20px;
+    width: 250px;
+    position: relative;
+}
+
+.certificates--certificate div svg{
+    width: 40px;
+    height: 40px;
+}
+
+.certificates--certificate div h3{
+    font-size: 2rem;
+    font-family: var(--tech);
+}
+
+.certificates--certificate div p{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.certificates--certificate div a{
+    text-decoration: none;
+    background-color: var(--purple-color);
+    color: var(--white-color);
+    width: 200px;
+    padding: 2px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: absolute;
+    bottom: -20px;
+    border-radius: 10px 0 10px 0;
+    text-align: center;
+}

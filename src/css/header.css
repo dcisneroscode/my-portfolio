@@ -1,0 +1,61 @@
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding-top: 35px;
+    margin-right: 150px;
+}
+
+nav button{
+    background-color: transparent;
+    border: none;
+}
+
+nav button svg{
+    width: 20px;
+    height: 20px;
+}
+
+nav ul li{
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a{
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: var(--tech);
+   
+}
+
+.nav--dark-color{
+    color: var(--white-color) ;
+}
+
+.nav--light-color{
+    color: var(--black-color) ;
+}
+
+.nav--activate {
+    text-decoration: 3px underline;
+    text-underline-offset: 10px;
+}
+
+nav select{
+    font-size: 1.7rem;
+    font-family: var(--tech);
+    text-align: center;
+    border-radius: 100px;
+    width: 100px;
+    padding: 5px;
+    border: none;
+    background-color: var(--purple-color);
+    color: var(--white-color);
+}
+
+
