@@ -13,7 +13,7 @@ function RoutesApp(){
                 <Route path="/" element={ <Home />} />
                 <Route path="/certificates" element={ <Certificates />} />
                 <Route path="/projects" element={ <Projects />} />
-                <Route path="/not-found" element={ <NotFound />} />
+                <Route path="*" element={ <Home />} />
             </Routes>
         </>
     )
