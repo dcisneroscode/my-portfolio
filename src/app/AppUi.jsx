@@ -9,6 +9,7 @@ import "../css/header.css";
 import "../css/footer.css";
 import "../css/aboutme.css";
 import "../css/certificates.css";
+import "../css/projects.css"
 
 
 

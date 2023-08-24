@@ -238,18 +238,18 @@ let github = [
     {
         spanish:[
             {
-                "title": "my-portfolio-react",
-                "content": "mi portafolio de desarrollador fullstack.",
-                "url": "https://github.com/dcisneroscode/my-portfolio-react"
+                "title": "my-portfolio",
+                "content": "Mi portafolio es  un lienzo digital que muestra mis destrezas fullstack. Explorando mi pasión por la creación, presento un abanico de habilidades a través de proyectos. Cada línea de código es un paso hacia la innovación. #DesarrolladorFullstack 🚀.",
+                "url": "https://github.com/dcisneroscode/my-portfolio"
             }
         ]
     },
     {
         english:[
             {
-                "title": "my-portfolio-react",
-                "content": "mi portafolio de desarrollador fullstack.",
-                "url": "https://github.com/dcisneroscode/my-portfolio-react"
+                "title": "my-portfolio",
+                "content": "My portfolio is a digital canvas that showcases my fullstack skills. Exploring my passion for creation, I present a range of skills through projects. Every line of code is a step towards innovation. #FullstackDeveloper 🚀.",
+                "url": "https://github.com/dcisneroscode/my-portfolio"
             }
         ]
     }

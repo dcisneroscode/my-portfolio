@@ -15,7 +15,7 @@ function Certificate({ data }){
                                 <PiCertificateFill color={data.themeColor ? "#FFFFFF" : "#111827"}/>
                                 <h3 key={index}>{diploma.title}</h3>
                                 <p>{diploma.certificate}</p>
-                                <a href={diploma.url}>Ver el certificado.</a>
+                                <a href={diploma.url} target="_blank">Ver el certificado.</a>
                             </div>
                         </>
                     )
@@ -27,7 +27,7 @@ function Certificate({ data }){
                                 <PiCertificateFill color={data.themeColor ? "#FFFFFF" : "#111827"} />
                                 <h3 key={index}>{diploma.title}</h3>
                                 <p>{diploma.certificate}</p>
-                                <a href={diploma.url}>See the certificate.</a>
+                                <a href={diploma.url} target="_blank">See the certificate.</a>
                             </div>
                         </>
                     )
