@@ -26,10 +26,10 @@ function AppUi(){
         <>
             <div className={themeColor ? darkTheme : lightTheme}>
                 <Header />
-                <RoutesApp />
+                {/* <RoutesApp />
                 <Footer data={{
                     language
-                }} />
+                }} /> */}
             </div>
         </>
     )
